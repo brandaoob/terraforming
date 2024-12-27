@@ -1,0 +1,8 @@
+environment: prod
+servers:
+  - name: app
+    size: 3
+    type: t3.small
+  - name: queue
+    size: 3
+    type: t3.micro
